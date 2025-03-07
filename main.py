@@ -9,6 +9,10 @@ def main():
     f_percentage = (femaleStudents / totalStudents) * 100
     nb_percentage = (nonbinaryStudents / totalStudents) * 100
     
+    print(f"The total number of students is: \t{totalStudents}")
+    print(f"The number of males, females and non-binary: \t{maleStudents}, \t{femaleStudents}, \t{nonbinaryStudents}")
+    print(f"The percentage of males, females and non-binary: \t{m_percentage:.2f}%, \t{f_percentage:.2f}%, \t{nb_percentage:.2f}%")
+    
     
     return maleStudents, femaleStudents, nonbinaryStudents
     
